@@ -1,0 +1,38 @@
+body {
+    background-color: #59656d; /* Antique white background */
+    color: #C2DAB8;  /* Celadon green text color */
+}
+
+input[type="text"], input[type="submit"] {
+    background-color: #C2DAB8; /* Celadon green background for inputs */
+    color: #333; /* Dark text color for contrast */
+    border: none;
+    padding: 8px;
+    margin: 4px;
+}
+
+/* Add styles for the container and columns */
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .column {
+            flex: 1; /* Each column takes equal width */
+            margin: 10px; /* Adds space between columns */
+            padding: 10px; /* Adds padding inside columns */
+            box-sizing: border-box; /* Includes padding in width calculation */
+        }
+        .output {
+            text-align: left; /* Aligns text to the left */
+            border-right: 1px solid #ccc; /* Adds a separator between columns */
+        }
+        .form {
+            display: flex; /* Enables flexible box layout */
+            align-items: center; /* Vertically center the content */
+            justify-content: center; /* Horizontally center the content */
+            flex-direction: column; /* Stacks elements vertically */
+        }
+        form {
+            width: 100%; /* Makes the form use all available space */
+            max-width: 300px; /* Maximum width of the form */
+        }
